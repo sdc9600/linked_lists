@@ -7,7 +7,6 @@ class LinkedList
   end
   
   def append(value)
-    # binding.pry
     if @head == nil
       @head = Node.new(value)
       @tail = Node.new(value)
